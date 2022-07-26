@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react';
 
-const a = 1111;
+const a2 = 1111;
 
 export const Index: React.FC = () => {
   const [num, setNum] = useState<number>(0);

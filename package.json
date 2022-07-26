@@ -34,6 +34,12 @@
       "react-app/jest"
     ]
   },
+  "lint-stage": {
+    "*.{js,jsx,ts,tsx,mjs,mjsx,cjs,cjsx}": [
+      "eslint --fix --color",
+      "git add"
+    ]
+  },
   "browserslist": {
     "production": [
       ">0.2%",
