@@ -34,7 +34,7 @@
       "react-app/jest"
     ]
   },
-  "lint-stage": {
+  "lint-staged": {
     "*.{js,jsx,ts,tsx,mjs,mjsx,cjs,cjsx}": [
       "eslint --fix --color",
       "git add"
