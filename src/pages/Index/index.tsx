@@ -1,8 +1,5 @@
 import React, { useState, useCallback } from 'react';
 
-const a2 = 1111;
-console.log(a2);
-
 export const Index: React.FC = () => {
   const [num, setNum] = useState<number>(0);
 
